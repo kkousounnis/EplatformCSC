@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>  
+
+<head>  
+
+ <meta http-equiv="Content-Type" content="text/html">
+ <meta charset="UTF-8">
+ 
+ <title>Ηλεκτρονική Πλατφόρμα Εξυπηρέτησης Πελατών</title>  
+
+ <style>
+ body {font-family: Arial, Helvetica, sans-serif;}
+ form {border: 10px solid #f1f1f1;}
+
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+ }
+
+ button {
+    background-color: #0066cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+ }
+
+ button:hover {
+    opacity: 0.8;
+ }
+
+
+ .container {
+    padding: 16px;
+ }
+
+ span.psw {
+    float: right;
+    padding-top: 16px;
+ }
+
+</style>
+ 
+
+</head>
+
+<body>  
+
+<p><img style="float: left;" src="logo.png" alt="" width="300" height="84" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p style="text-align: center;">Συμπληρώστε τη φόρμα εγγραφής.</p>
+<p>&nbsp;</p>
+
+<form action="servlet2">
+
+  <div class="container">
+  <label for="uname"><b>Όνομα Χρήστη</b></label>
+    <input type="text" placeholder="Εισάγετε Όνομα Χρήστη" name="uname" required>
+
+    <label for="psw"><b>Κωδικός Πρόσβασης</b></label>
+    <input type="password" placeholder="Εισάγετε Κωδικό Πρόσβασης" name="psw" required>
+  
+    <label for="firstname"><b>Όνομα</b></label>
+    <input type="text" placeholder="Εισάγετε Όνομα" name="firstname" required>
+
+    <label for="lastname"><b>Επώνυμο</b></label>
+    <input type="text" placeholder="Εισάγετε Επώνυμο" name="lastname" required>
+	
+    <label for="fathersname"><b>Πατρώνυμο</b></label>
+    <input type="text" placeholder="Εισάγετε Πατρώνυμο" name="fathersname" required>
+	
+    <label for="mothersname"><b>Μητρώνυμο</b></label>
+    <input type="text" placeholder="Εισάγετε Μητρώνυμο" name="mothersname" required>
+	
+    <label for="birthdate"><b>Ημερομηνία Γέννησης</b></label>
+    <input type="text" placeholder="Εισάγετε  Ημερομηνία Γέννησης(πχ1996-12-23)" name="birthdate" required>
+	
+    <label for="idnumber"><b>Αριθμός Αστυνομικής Ταυτότητας</b></label>
+    <input type="text" placeholder="Εισάγετε Αριθμό Αστυνομικής Ταυτότητας" name="idnumber" required>
+		
+    <label for="amka"><b>Α.Μ.Κ.Α.</b></label>
+    <input type="text" placeholder="Εισάγετε Α.Μ.Κ.Α." name="amka" required>
+	
+    <label for="afm"><b>Α.Φ.Μ.</b></label>
+    <input type="text" placeholder="Εισάγετε Α.Φ.Μ." name="afm" required>
+	
+	<label for="streetaddress"><b>Διεύθυνση Διαμονής</b></label>
+    <input type="text" placeholder="Εισάγετε Διεύθυνση Διαμονής" name="streetaddress" required>
+	
+    <label for="phonenumber"><b>Τηλέφωνο</b></label>
+    <input type="text" placeholder="Εισάγετε Τηλέφωνο" name="phonenumber" required>
+	
+    <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="Εισάγετε E-mail" name="email" required>
+	
+        
+    <button type="submit">Εγγραφή</button>
+    
+  </div>
+
+  
+</form>
+
+
+  
+</body>  
+
+</html>
